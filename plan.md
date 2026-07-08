@@ -52,7 +52,7 @@ Plus the standalone **end-of-think → answer decodability drop** as the direct 
 
 ## Deliverable
 
-A single self-contained **Colab notebook**: `roles_boundary_transmission.ipynb` (no `.py` mirror).
+A single self-contained **Colab notebook**: `role_boundary_info_transmission.ipynb` (no `.py` mirror).
 It installs deps, runs the whole experiment on the T4, renders all plots inline, and writes a short
 analysis. Figures + a `metrics.json` + `analysis.txt` are also saved to the working dir for download.
 

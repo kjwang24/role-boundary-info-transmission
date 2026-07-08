@@ -1,4 +1,4 @@
-# Core dependencies for roles_boundary_transmission.ipynb.
+# Core dependencies for role_boundary_info_transmission.ipynb.
 # On Google Colab, torch + matplotlib are preinstalled; only the first two are pip-installed by the
 # notebook. This file is for local/non-Colab reproduction.
 #

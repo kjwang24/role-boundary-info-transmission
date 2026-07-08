@@ -1,4 +1,4 @@
-# roles_activation_patching — think→answer information transmission
+# role_boundary_info_transmission — think→answer information transmission
 
 Does a reasoning model **lose information across the boundary** between the end of its `<think>`
 block and the start of its answer? This project probes that on
@@ -14,7 +14,7 @@ Results are combined into a 2×2 verdict (decodable-at-handoff × knockout-hurts
 
 ## How to run (Google Colab, T4)
 
-1. Open `roles_boundary_transmission.ipynb` in Colab.
+1. Open `role_boundary_info_transmission.ipynb` in Colab.
 2. **Runtime → Change runtime type → T4 GPU**.
 3. **Runtime → Run all.** The first cell installs `transformer_lens` + `scikit-learn` (torch and
    matplotlib are preinstalled on Colab).
