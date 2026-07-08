@@ -41,6 +41,12 @@ fits comfortably in 16 GB.
 - Caveat: single-layer attention knockout is a direct-edge test; multi-hop routing
   (think → intermediate positions → answer) is only fully severed by the block-all-layers result.
 
+## Requesting changes (working with Claude)
+
+Queue fixes in [`NOTES.md`](NOTES.md) — one file, checkbox list. After a failed Colab run,
+**File → Save a copy in GitHub** (outputs are committed) and note the cell; the traceback comes along,
+so there's no need to retype it. Chat works too.
+
 ## Local / non-Colab
 
 The notebook auto-detects device (`cuda`→fp16, else CPU→fp32). CPU works but is slow for a 1.78 B model.
